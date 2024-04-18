@@ -11,6 +11,12 @@ export default function Landing() {
   const bProps2 = [{}];
   return (
     <>
+
+    <a href="/">
+    <button  className='edicion'>Cerrar Sesion </button>
+    </a>
+   
+  
               <img src={img} className="Landing"/>
       <div className="bigContainer">
         <div className="containerLanding">

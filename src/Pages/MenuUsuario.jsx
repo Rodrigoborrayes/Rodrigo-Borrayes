@@ -12,6 +12,9 @@ export default function MenuUsuario() {
   return (
     <>
       <div className="bigContainer">
+        <a href="/">
+        <button  className='edicion'>Cerrar Sesion </button>  
+        </a>
       <img src={img} className="Menu"/>  
         <div className="containerLanding">
           <header className="headerLanding">
